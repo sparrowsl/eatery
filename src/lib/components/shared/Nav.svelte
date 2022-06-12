@@ -21,7 +21,7 @@
 			<a href="/" class="font-light">Home</a>
 			<a href="/about" class="font-light">About</a>
 			<a href="/special-dishes" class="font-light">Special Dishes</a>
-			<a href="/" class="font-light">Menu</a>
+			<a href="/menu" class="font-light">Menu</a>
 			<a href="/" class="font-light">Team</a>
 			<a href="/" class="font-light">Reservation</a>
 		</div>
