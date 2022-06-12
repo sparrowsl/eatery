@@ -42,11 +42,11 @@
 				</li>
 				<li class="flex items-center justify-between text-lg font-light">
 					<span>Friday</span>
-					<span>9:00 - 24:00</span>
+					<span>9:00 - 02:00</span>
 				</li>
 				<li class="flex items-center justify-between text-lg font-light">
 					<span>Saturday</span>
-					<span>9:00 - 24:00</span>
+					<span>9:00 - 02:00</span>
 				</li>
 				<li class="flex items-center justify-between text-lg font-light">
 					<span>Sunday</span>

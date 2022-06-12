@@ -1,27 +1,25 @@
 <script>
 	let hidden = true;
-	function toggleMenu() {
-		console.log('I have been clicked');
-		hidden = !hidden;
-	}
 </script>
 
-<section class="sticky top-0 bg-white">
+<section class="sticky top-0 bg-white lg:static">
 	<nav
 		class="container relative mx-auto flex min-h-[10vh] items-center justify-between lg:max-w-6xl"
 	>
 		<!-- Brand/Logo -->
-		<div class="pl-3 text-2xl font-semibold italic">Eatery</div>
+		<div class="pl-3 text-2xl font-semibold italic md:p-0">
+			<a href="/">Eatery</a>
+		</div>
 
 		<!-- Menu Items -->
 		<div
-			class:h-0={hidden}
-			class:py-2={!hidden}
-			class="items absolute top-full flex w-full flex-col gap-5 overflow-hidden
+			class="{hidden
+				? 'h-0'
+				: 'py-2'} items absolute top-full flex w-full flex-col gap-5 overflow-hidden
 			bg-slate-50 px-4 shadow md:static md:h-fit md:w-fit md:flex-row md:bg-inherit md:p-0 md:shadow-none"
 		>
 			<a href="/" class="font-light">Home</a>
-			<a href="/" class="font-light">About</a>
+			<a href="/about" class="font-light">About</a>
 			<a href="/" class="font-light">Special Dishes</a>
 			<a href="/" class="font-light">Menu</a>
 			<a href="/" class="font-light">Team</a>
@@ -29,7 +27,7 @@
 		</div>
 
 		<!-- Hamburger -->
-		<div class="pr-3 text-2xl md:hidden" on:click={toggleMenu}>
+		<div class="pr-3 text-2xl md:hidden" on:click={() => (hidden = !hidden)}>
 			<i class="ri-menu-3-line" />
 		</div>
 	</nav>

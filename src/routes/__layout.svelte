@@ -2,7 +2,7 @@
 	import '../tailwind.css';
 	import 'remixicon/fonts/remixicon.css';
 	import Nav from '$lib/components/shared/Nav.svelte';
-	import Footer from '$lib/components/Footer.svelte';
+	import Footer from '$lib/components/shared/Footer.svelte';
 </script>
 
 <Nav />
