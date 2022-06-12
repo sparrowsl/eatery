@@ -22,8 +22,8 @@
 			<a href="/about" class="font-light">About</a>
 			<a href="/special-dishes" class="font-light">Special Dishes</a>
 			<a href="/menu" class="font-light">Menu</a>
-			<a href="/" class="font-light">Team</a>
-			<a href="/" class="font-light">Reservation</a>
+			<a href="/team" class="font-light">Team</a>
+			<a href="/reservation" class="font-light">Reservation</a>
 		</div>
 
 		<!-- Hamburger -->
