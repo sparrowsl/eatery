@@ -1,8 +1,12 @@
 <script>
+	import { navigating } from '$app/stores';
+	import { formSuccess } from '../../store';
+
 	let hidden = true;
+	$: $navigating && (hidden = !hidden);
 </script>
 
-<section class="sticky top-0 bg-white lg:static">
+<section class="{$formSuccess ? '' : 'sticky'} top-0 bg-white lg:static">
 	<nav
 		class="container relative mx-auto flex min-h-[10vh] items-center justify-between lg:max-w-6xl"
 	>

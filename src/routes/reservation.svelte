@@ -1,23 +1,21 @@
 <script>
+	import { goto } from '$app/navigation';
 	import { formSuccess } from '../lib/store.js';
 
 	const customer = {
-		name: 't',
-		email: 't@m.c',
-		phone: '939',
+		name: '',
+		email: '',
+		phone: '',
 		date: '',
 		time: '09:30',
 		people: '',
 		message: ''
 	};
 
-	function handleForm() {
+	const handleForm = () => {
 		$formSuccess = true;
-
-		setTimeout(() => {
-			$formSuccess = false;
-		}, 2000);
-	}
+		goto('/');
+	};
 </script>
 
 <article class="min-h-screen bg-[url(/img/reservation-bg.jpg)]">
