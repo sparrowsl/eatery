@@ -5,7 +5,7 @@
 		<!-- Call to actions -->
 		<div class="cta mb-7">
 			<a
-				href="/"
+				href="/menu"
 				class="block w-fit rounded-full bg-red-500 py-2 px-5 font-semibold text-white shadow shadow-red-200"
 			>
 				Explore Menu
