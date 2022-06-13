@@ -26,9 +26,12 @@
 				<!-- Dish price -->
 				<p class="mb-10 text-2xl font-medium">$15.00</p>
 				<!-- Book a table CTA -->
-				<a href="/" class="rounded-full bg-red-500 py-4 px-6 text-gray-200 hover:bg-red-600"
-					>Book A Table</a
+				<a
+					href="/reservation"
+					class="rounded-full bg-red-500 py-4 px-6 text-gray-200 hover:bg-red-600"
 				>
+					Book A Table
+				</a>
 			</div>
 			<!-- Dish Image -->
 			<div class="">
@@ -54,9 +57,12 @@
 				<!-- Dish price -->
 				<p class="mb-10 text-2xl font-medium">$12.00</p>
 				<!-- Book a table CTA -->
-				<a href="/" class="rounded-full bg-red-500 py-4 px-6 text-gray-200 hover:bg-red-600"
-					>Book A Table</a
+				<a
+					href="/reservation"
+					class="rounded-full bg-red-500 py-4 px-6 text-gray-200 hover:bg-red-600"
 				>
+					Book A Table
+				</a>
 			</div>
 			<!-- Dish Image -->
 			<div class="order-1">

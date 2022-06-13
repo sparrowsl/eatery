@@ -1,12 +1,11 @@
 <script>
 	import { navigating } from '$app/stores';
-	import { formSuccess } from '../../store';
 
-	let hidden = true;
-	$: $navigating && (hidden = !hidden);
+	let isOpen = false;
+	$: $navigating && (isOpen = false);
 </script>
 
-<section class="{$formSuccess ? '' : 'sticky'} top-0 bg-white lg:static">
+<section class="sticky top-0 bg-white lg:static">
 	<nav
 		class="container relative mx-auto flex min-h-[10vh] items-center justify-between lg:max-w-6xl"
 	>
@@ -17,9 +16,9 @@
 
 		<!-- Menu Items -->
 		<div
-			class="{hidden
-				? 'h-0'
-				: 'py-2'} items absolute top-full flex w-full flex-col gap-5 overflow-hidden
+			class="{isOpen
+				? 'py-2'
+				: 'h-0'} items absolute top-full flex w-full flex-col gap-5 overflow-hidden
 			bg-slate-50 px-4 shadow md:static md:h-fit md:w-fit md:flex-row md:bg-inherit md:p-0 md:shadow-none"
 		>
 			<a href="/" class="font-light">Home</a>
@@ -31,7 +30,7 @@
 		</div>
 
 		<!-- Hamburger -->
-		<div class="pr-3 text-2xl md:hidden" on:click={() => (hidden = !hidden)}>
+		<div class="pr-3 text-2xl md:hidden" on:click={() => (isOpen = !isOpen)}>
 			<i class="ri-menu-3-line" />
 		</div>
 	</nav>
