@@ -50,7 +50,7 @@
 	];
 </script>
 
-<section class="container mx-auto min-h-screen py-16 lg:max-w-6xl">
+<section class="container mx-auto min-h-screen py-16 px-2 lg:max-w-6xl">
 	<!-- Banner -->
 	<div class="mb-12 text-center">
 		<p class="text-base text-red-400">Specialities</p>

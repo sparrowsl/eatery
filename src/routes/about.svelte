@@ -2,7 +2,7 @@
 
 <section
 	class="container mx-auto grid min-h-[90vh] items-center justify-center gap-7 py-10
-  md:grid-cols-2 md:py-16 lg:max-w-6xl"
+  px-2 md:grid-cols-2 md:py-16 lg:max-w-6xl"
 >
 	<!-- Info -->
 	<div class="md:order-2">

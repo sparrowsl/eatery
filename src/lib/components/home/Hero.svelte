@@ -1,5 +1,5 @@
 <header>
-	<section class="container mx-auto flex flex-col justify-center md:min-h-screen lg:max-w-6xl">
+	<section class="container mx-auto flex flex-col justify-center px-2 md:min-h-screen lg:max-w-6xl">
 		<h1 class="font-josefin my-10 text-6xl font-light md:max-w-[12ch]">We Love Delicious Foods!</h1>
 
 		<!-- Call to actions -->

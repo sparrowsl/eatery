@@ -1,6 +1,6 @@
 <!-- Summary about -->
 <section
-	class="container mx-auto my-10 grid min-h-screen items-center justify-center gap-7 md:grid-cols-2"
+	class="container mx-auto my-10 grid min-h-screen items-center justify-center gap-7 px-2 md:grid-cols-2"
 >
 	<!-- Info -->
 	<div class="md:order-2">

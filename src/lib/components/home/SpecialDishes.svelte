@@ -1,6 +1,6 @@
 <script></script>
 
-<section class="container mx-auto min-h-screen items-center justify-center py-16">
+<section class="container mx-auto min-h-screen items-center justify-center py-16 px-2">
 	<div class="banner mb-12 text-center">
 		<p class="text-base text-red-400">Specialities</p>
 		<h2 class="text-2xl font-bold">Sepcial Dishes</h2>
