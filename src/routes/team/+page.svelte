@@ -48,7 +48,7 @@
 	<section class="grid gap-10 md:grid-cols-3 md:gap-5 lg:px-10">
 		{#each staff as user (user)}
 			<figure class="px-4">
-				<img src={`/img/${user.image}`} alt="" class="" />
+				<img src="/img/{user.image}" alt="" class="" />
 				<figcaption class="text-center">
 					<h3 class="font-josefin mt-1 text-2xl font-normal">{user.name}</h3>
 					<p class="font-light">{user.position}</p>
