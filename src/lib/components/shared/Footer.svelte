@@ -1,4 +1,5 @@
 <script>
+	import 'iconify-icon';
 </script>
 
 <footer class="py-10 px-4">
@@ -13,9 +14,9 @@
 			</p>
 			<!-- Social Icons -->
 			<div class="mt-5 flex items-center gap-10">
-				<a href="/" class="text-xl"><i class="ri-facebook-fill" /></a>
-				<a href="/" class="text-xl"><i class="ri-twitter-fill" /></a>
-				<a href="/" class="text-xl"><i class="ri-instagram-line" /></a>
+				<a href="/" class="text-xl"><iconify-icon icon="mdi:facebook" /></a>
+				<a href="/" class="text-xl"><iconify-icon icon="mdi:twitter" /></a>
+				<a href="/" class="text-xl"><iconify-icon icon="mdi:instagram" /></a>
 			</div>
 		</div>
 
@@ -80,8 +81,6 @@
 	</section>
 
 	<div class="copyright mt-10 text-center font-light italic text-gray-500">
-		&copy; Copyright 2022. All Right Reserved. Developed by Benjamin Thorpe
+		&copy; Copyright 2022. All Right Reserved. Developed by Sparrow
 	</div>
 </footer>
-
-<style></style>
