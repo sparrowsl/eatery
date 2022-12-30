@@ -9,5 +9,3 @@
 <Welcome />
 <SpecialDishes />
 <OurMenu />
-
-<style></style>
