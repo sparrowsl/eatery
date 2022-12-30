@@ -1,8 +1,6 @@
-<script></script>
-
 <section
-	class="container mx-auto grid min-h-[90vh] items-center justify-center gap-7 py-10
-  px-2 md:grid-cols-2 md:py-16 lg:max-w-6xl"
+	class="container mx-auto grid min-h-screen max-w-6xl place-content-center gap-7
+  py-10 px-2 md:grid-cols-2 md:py-16"
 >
 	<!-- Info -->
 	<div class="md:order-2">
@@ -46,5 +44,3 @@
 		<img src="/img/hero-2.jpg" alt="food" class="h-full rounded-sm shadow-xl" />
 	</div>
 </section>
-
-<style></style>

@@ -1,8 +1,10 @@
 <script>
-	import { navigating } from '$app/stores';
+	import 'iconify-icon';
+	import { beforeNavigate } from '$app/navigation';
+
+	beforeNavigate(() => (isOpen = false));
 
 	let isOpen = false;
-	$: $navigating && (isOpen = false);
 </script>
 
 <section class="sticky top-0 bg-white lg:static">
@@ -27,9 +29,9 @@
 
 		<!-- Hamburger -->
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
-		<div class="pr-3 text-2xl md:hidden" on:click={() => (isOpen = !isOpen)}>
-			<i class="ri-menu-3-line" />
-		</div>
+		<span class="pr-3 text-2xl md:hidden" on:click={() => (isOpen = !isOpen)}>
+			<iconify-icon icon="material-symbols:menu-open" />
+		</span>
 	</nav>
 </section>
 

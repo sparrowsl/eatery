@@ -1,7 +1,11 @@
 <script>
-	import { enhance } from '$app/forms';
+	import { goto } from '$app/navigation';
+	import { formSuccess } from '../../lib/store.js';
 
-	export let form;
+	const handleSubmit = async () => {
+		$formSuccess = true;
+		goto('/');
+	};
 </script>
 
 <article class="min-h-screen bg-[url(/img/reservation-bg.jpg)] bg-cover bg-center">
@@ -12,7 +16,7 @@
 				<h2 class="font-josefin text-3xl font-bold">Book Now</h2>
 			</div>
 
-			<form action="" method="POST" class="grid gap-5" use:enhance>
+			<form action="" method="POST" class="grid gap-5" on:submit|preventDefault={handleSubmit}>
 				<!-- Name -->
 				<div>
 					<label for="" class="text-gray-600">Name</label>
