@@ -9,8 +9,7 @@
 	class="fixed top-0 z-40 flex w-full items-center justify-between rounded bg-green-200 p-4 shadow-md"
 >
 	<p>Your order was successful!! Thanks for coming.</p>
-	<!-- svelte-ignore a11y-click-events-have-key-events -->
-	<p class="text-2xl text-green-600 hover:cursor-pointer" on:click={() => ($formSuccess = false)}>
+	<button class="text-2xl text-green-600" on:click={() => ($formSuccess = false)}>
 		<iconify-icon icon="carbon:close" />
-	</p>
+	</button>
 </div>
